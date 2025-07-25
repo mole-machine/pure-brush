@@ -29,10 +29,15 @@ body {
     padding: 26px 0;
 }
 
+.logo {
+    margin-left: 57.5px;
+}
+
 .menu__list {
     display: flex;
     align-items: center;
     gap: 0px 80px;
+    margin-right: 57.5px;
 }
 
 .btn__link {
