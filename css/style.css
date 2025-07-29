@@ -67,7 +67,6 @@ body {
 .start__section {
     max-width: 420px;
     color: #FFFFFF;
-    z-index: +1;
 }
 
 .start__text {
@@ -91,7 +90,6 @@ body {
     position: absolute;
     margin-top: 367px;
     margin-left: 113px;
-    z-index: +1;
 }
 
 .start__btn {
@@ -144,6 +142,9 @@ body {
         position: relative;
         left: 55px;
         top: 30px;
+        max-width: 600px;
+        max-height: 314px;
+        background: #f0ebe5;
     }
 
     .menu__list {
@@ -160,9 +161,11 @@ body {
         line-height: 125%;
         text-align: center;
         color: #000;
+        margin-left: 80px;
     }
 
     .start__text {
+        width: 495px;
         font-family: "Mulish", sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -174,6 +177,7 @@ body {
     .start__btn {
         width: 500px;
         height: 58px;
+        margin-bottom: 60px;
         font-family: "Mulish", sans-serif;
         font-weight: 400;
         font-size: 16px;
