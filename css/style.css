@@ -10,16 +10,24 @@ a {
 }
 
 body {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #FFFBF2;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FFFBF2;
 }
+
 .container {
+    position: relative;
     max-width: 1366px;
     padding: 0;
     margin: 0 auto;
+}
+
+.start__section-main {
+    position: absolute;
+    left: 113px;
+    top: 184px;
 }
 
 .header__inner {
@@ -33,7 +41,7 @@ body {
     margin-left: 57.5px;
 }
 
-.logo_text { 
+.logo_text {
     display: none;
 }
 
@@ -49,6 +57,7 @@ body {
     height: 50px;
     color: #FFFFFF;
     background-color: #104B4F;
+    cursor: pointer;
 }
 
 .start__image {
@@ -56,9 +65,6 @@ body {
 }
 
 .start__section {
-    position: absolute;
-    margin-top: 184px;
-    margin-left: 113px;
     max-width: 420px;
     color: #FFFFFF;
     z-index: +1;
@@ -97,6 +103,7 @@ body {
     line-height: 136%;
     letter-spacing: 0.1em;
     border-color: #fff;
+    cursor: pointer;
 }
 
 
@@ -104,10 +111,10 @@ body {
     .container {
         max-width: 600px;
     }
-    
+
     .header {
-    width: 600px; 
-    height: 110px; 
+        width: 600px;
+        height: 110px;
     }
 
     .logo__main {
@@ -117,21 +124,26 @@ body {
     .logo {
         margin-left: 28px;
     }
+
     .btn__link {
-    font-family: "Mulish", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 136%;
-    letter-spacing: 0.1em;
-    text-align: center;
-    color: #fff;
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 136%;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color: #fff;
         padding: 10px 25px;
     }
+
     .menu__link {
         display: none;
     }
-    .start__section {
-        position: absolute;
+
+    .start__section-main {
+        position: relative;
+        left: 55px;
+        top: 30px;
     }
 
     .menu__list {
@@ -140,6 +152,7 @@ body {
         gap: 0px;
         padding-right: 36px;
     }
+
     .start__speach {
         font-family: "Mulish", sans-serif;
         font-weight: 400;
@@ -169,5 +182,5 @@ body {
         text-align: center;
         color: #fff;
         background: #0a474b;
-    } 
+    }
 }
