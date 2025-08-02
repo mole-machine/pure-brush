@@ -368,6 +368,55 @@ body {
     cursor: pointer;
 }
 
+.get__img {
+    display: block;
+    width: 100%;
+}
+
+.get__item {
+    position: relative;
+}
+
+.get__item__inner {
+    position: absolute;
+    width: 500px;
+    top: 72px;
+    left: 113px;
+}
+
+.get__title {
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 118%;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.get__text {
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 175%;
+    color: #fff;
+    padding-bottom: 36px;
+}
+
+.get__button {
+    width: 299px;
+    height: 65px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 136%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
         max-width: 1024px;
