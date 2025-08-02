@@ -271,11 +271,101 @@ body {
     gap: 16px;
 }
 
+.family__item {
+    padding-bottom: 90px;
+}
+
 .family__social__text {
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #000;
+}
+
+.sellers {
+    background: #A7BCB8;
+}
+
+.sellers__our {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 90px;
+    padding-bottom: 45px;
+}
+
+.sellers__title {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 118%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.sellers__text {
+    font-family: "Mulish", sans-serif;
+    line-height: 175%;
+    text-align: center;
+    color: #000;
+    width: 532px;
+}
+
+.sellers__inner {
+    max-width: 350px;
+    padding: 30px;
+    background: #FFFBF2;
+    text-align: center;
+}
+
+.sellers__item {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 115px;
+}
+
+.sellers__inner__title {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #000;
+    align-items: baseline;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.sellers__cost {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #000;
+}
+
+.sellers__inner__text {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #000;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.sellers-button {
+    width: 299px;
+    height: 65px;
+    color: #FFFFFF;
+    background-color: #104B4F;
+    cursor: pointer;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
