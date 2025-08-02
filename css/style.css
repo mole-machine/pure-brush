@@ -416,6 +416,57 @@ body {
     cursor: pointer;
 }
 
+.footer__title {
+    position: relative;
+    text-align: center;
+    margin: 53px auto;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 119%;
+    color: #000;
+}
+
+.footer__menu__list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 70px;
+
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.email {
+    width: 340px;
+    height: 65px;
+    background-color: transparent;
+    text-align: left;
+    padding-left: 25px;
+    border-color: #0A474B;
+}
+
+.form-btn {
+    width: 165px;
+    height: 65px;
+    color: #FFFFFF;
+    background-color: #104B4F;
+    cursor: pointer;
+}
+
+.footer__form {
+    margin-left:112px;
+    margin-right: 112px;
+}
+
+.social-links {
+    display: flex;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
