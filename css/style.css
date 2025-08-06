@@ -484,24 +484,15 @@ body {
     }
 
     .start__section-main {
-        display: block;
         position: static;
-        width: 100%;
         margin: 0 auto;
-        /* position: static;
         place-items: center;
         padding-right: 50px;
-        padding-top: 30px; */
+        padding-top: 30px;
         background: #f0ebe5;
     }
 
     .start__section {
-        display: block;
-        justify-content: center;
-        width: 100%;
-        margin: 0 auto;
-        place-items: center;
-        padding-right: 50px;
         padding-top: 30px;
         background: #f0ebe5;
     }
