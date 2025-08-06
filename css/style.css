@@ -488,9 +488,8 @@ body {
         position: static;
         width: 100%;
         margin: 0 auto;
-        /* position: static;
         place-items: center;
-        padding-right: 50px;
+         /* padding-right: 50px;
         padding-top: 30px; */
         background: #f0ebe5;
     }
