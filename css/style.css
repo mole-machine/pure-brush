@@ -466,7 +466,9 @@ body {
 
 .social-links {
     display: flex;
+    gap:20px;
 }
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
@@ -484,7 +486,7 @@ body {
     .start__section-main {
         position: static;
         place-items: center;
-        padding-right: 50px;
+        /* padding-right: 50px; */
         padding-top: 30px;
         background: #f0ebe5;
     }
