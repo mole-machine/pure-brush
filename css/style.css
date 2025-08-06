@@ -484,7 +484,7 @@ body {
     }
 
     .start__section-main {
-        position: static;
+        position: relative;
     }
 
     .start__section {
