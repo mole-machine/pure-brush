@@ -485,15 +485,10 @@ body {
 
     .start__section-main {
         position: static;
+         place-items: center;
     }
 
     .start__section {
-        /* display: flex; */
-        justify-content: center;
-        width: 100%;
-        margin: 0 auto;
-        place-items: center;
-        padding-right: 50px;
         padding-top: 30px;
         background: #f0ebe5;
     }
