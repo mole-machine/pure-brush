@@ -485,14 +485,16 @@ body {
 
     .start__section-main {
         position: relative;
+        left: 0;
+        top: 0;
+        padding-right: 50px;
+        padding-top: 30px;
+        background: #f0ebe5;
     }
 
     .start__section {
         margin: 0 auto;
-        place-items: center;
-        padding-right: 50px;
         padding-top: 30px;
-        background: #f0ebe5;
     }
 
     .start__speach {
