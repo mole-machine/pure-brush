@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
     rel="stylesheet">
@@ -65,8 +66,10 @@
         </div>
       </div>
     </section>
-     <!--  <section class="brand">
+    <section class="brand">
       <div class="container">
+
+
         <div class="our-partners">
           <div class="our-partners__item">
             <img src="images/brand__fortuna.png" alt="" class="our-partners__img">
@@ -93,9 +96,50 @@
               toothbrushes.”</p>
           </div>
         </div>
-      </div>
+
+        <div class="our-partners-mobile">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="our-partners__item">
+                <img src="images/brand__fortuna.png" alt="" class="our-partners__img">
+                <p class="our-partners__text">It effectively fights cavities, reduces plaque, and promotes overall oral
+                  health.</p>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-partners__item">
+                  <img src="images/brand__realsimple.png" alt="" class="our-partners__img">
+                  <p class="our-partners__text">“Trusted by healthcare professionals, PureBrush is a reliable choice for
+                    daily care.”</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-partners__item">
+                  <img src="images/brand__apartment.png" alt="" class="our-partners__img">
+                  <p class="our-partners__text">“At our store, PureBrush’s toothpaste has consistently been a
+                    top-selling
+                    product”</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-partners__item">
+                  <img src="images/brand__domino.png" alt="" class="our-partners__img">
+                  <p class="our-partners__text">“It complements our commitment to high-quality, natural products”</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-partners__item">
+                  <img src="images/brand__ad.png" alt="" class="our-partners__img">
+                  <p class="our-partners__text">“It's a product we recommend to consumers seeking a reliable
+                    toothbrushes.”</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination">
+            </div>
+          </div>
+        </div>
     </section>
-   <section class="stuff">
+    <!--   <section class="stuff">
       <div class="container">
         <div class="stuff-card">
           <img src="images/stuff-one.png" alt="" class="stuff-img">
@@ -271,7 +315,32 @@
       </div>
     </div>
   </footer>-->
-    <script src="main.js"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+    </script>
 </body>
 
 </html>
