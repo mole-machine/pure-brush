@@ -442,6 +442,14 @@ body {
     margin-bottom: 20px;
 }
 
+.item-a {
+    order: 1;
+}
+
+.item-b {
+    order: 2;
+}
+
 .email {
     width: 340px;
     height: 65px;
@@ -566,7 +574,7 @@ body {
         width: 9px;
         height: 9px;
         background: #0A474B;
-        border: 2px solid #0A474B; 
+        border: 2px solid #0A474B;
         cursor: pointer;
         opacity: 1;
         transition: all 0.3s;
@@ -598,6 +606,35 @@ body {
     .swiper-slide {
         padding: 20px;
     }
+
+    .stuff-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-a {
+        order: 2;
+    }
+
+    .item-b {
+        order: 1;
+    }
+
+    .stuff__item {
+        margin-left: 100px;
+        margin-top: 35px;
+        margin-bottom: 70px;
+    }
+
+
+    .stuff-title {
+        margin-bottom: 10px;
+    }
+
+    .stuff-text {
+        margin-bottom: 15px;
+    }
+
 
 
 }
