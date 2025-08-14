@@ -701,7 +701,7 @@ body {
     }
 
     .sellers__inner {
-        margin-left: 320px;
+        margin: 0 auto;
         padding: 30px;
         background: #FFFBF2;
         text-align: center;
@@ -717,7 +717,8 @@ body {
         text-align: center;
         width: 400px;
         top: 30px;
-        left: 300px;
+        left: 50%;
+        transform:translate(-50%, 0);
         padding-top: 10px;
     }
 
