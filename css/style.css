@@ -327,6 +327,10 @@ body {
     padding-bottom: 115px;
 }
 
+.sellers__item-mobile {
+    display: none;
+}
+
 .sellers__inner__title {
     display: flex;
     justify-content: space-between;
@@ -686,6 +690,28 @@ body {
     .family__social {
         margin-top: 30px;
     }
+
+    .sellers__item {
+        display: none;
+    }
+
+    .sellers__item-mobile {
+        display: flex;
+        padding-bottom: 450px;
+    }
+
+    .sellers__inner {
+        margin-left: 200px;
+        padding: 30px;
+        background: #FFFBF2;
+        text-align: center;
+    }
+
+    .sellers__our {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
 
 
 
