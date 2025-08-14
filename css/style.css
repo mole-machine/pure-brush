@@ -673,6 +673,20 @@ body {
         padding-bottom: 20px;
     }
 
+    .family__photo {
+        display: flex;
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .family__be {
+        margin-top: 60px;
+    }
+
+    .family__social {
+        margin-top: 30px;
+    }
+
 
 
 
