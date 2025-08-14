@@ -712,6 +712,17 @@ body {
         padding-bottom: 30px;
     }
 
+    .get__item__inner {
+        position: absolute;
+        text-align: center;
+        width: 400px;
+        top:0px;
+        left: 180px;
+        padding-top: 10px;
+    }
+
+
+
 
 
 
