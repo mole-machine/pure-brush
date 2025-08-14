@@ -191,6 +191,7 @@ body {
     font-family: "Mulish", sans-serif;
     font-weight: 600;
     font-size: 20px;
+    padding-bottom: 30px;
     line-height: 130%;
     text-align: center;
     color: #000;
@@ -220,13 +221,13 @@ body {
     padding-bottom: 108px;
 }
 
+.clients_opinion-mobile {
+    display: none;
+}
+
 .point {
     max-width: 104px;
     padding-bottom: 53px;
-}
-
-.clients__text {
-    padding-bottom: 30px;
 }
 
 .family__title {
@@ -587,7 +588,6 @@ body {
 
     .swiper-wrapper {
         height: 266px;
-        background: #FFFBF2;
     }
 
     .our-partners__text {
@@ -634,6 +634,46 @@ body {
     .stuff-text {
         margin-bottom: 15px;
     }
+
+    .clients_opinion {
+        display: none;
+    }
+
+    .clients_opinion-mobile {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        padding-bottom: 108px;
+
+    }
+
+    .clients__item-mobile {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .swiper-wrapper-clients {
+        height: 266px;
+
+    }
+
+    .clients__text {
+        width: 315px;
+    }
+
+    .clients-title {
+        padding-top: 60px;
+        padding-bottom: 0px;
+    }
+
+    .point {
+        padding-bottom: 20px;
+    }
+
+
 
 
 
