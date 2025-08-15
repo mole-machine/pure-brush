@@ -860,6 +860,39 @@ body {
         width: 219px;
     }
 
+    .stuff-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item-a {
+        order: 2;
+    }
+
+    .item-b {
+        order: 1;
+    }
+
+    .stuff__item {
+        margin-left: 25px;
+        margin-top: 35px;
+        margin-bottom: 70px;
+    }
+
+
+    .stuff-title {
+        margin-bottom: 10px;
+    }
+
+    .stuff-text {
+        margin-bottom: 15px;
+    }
+
+    .stuff-button {
+        height: 50px;
+    }
+
+
 
 
 }
