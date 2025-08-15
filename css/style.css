@@ -455,6 +455,10 @@ body {
     order: 2;
 }
 
+.get_img-mobile {
+    display: none;
+}
+
 .email {
     width: 340px;
     height: 65px;
@@ -990,7 +994,36 @@ body {
         width: 380px;
     }
 
+    .get__item__inner {
+        position: absolute;
+        text-align: center;
+        width: 400px;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        padding-top: 10px;
+    }
 
+    .get_img {
+        display: none;
+    }
 
+    .get_img-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .get__button {
+        margin-top: 200px;
+    }
+
+    .get__text {
+        width: 300px;
+        margin: 0 auto;
+    }
 
 }
+
+
+
+
